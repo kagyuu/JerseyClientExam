@@ -21,7 +21,8 @@
     <build>
         <plugins>
             <plugin>
-                <!-- it's require maven-compiler-plugin to expose lombok-bean outside the jar -->
+                <!-- The maven-compiler-plugin is required 
+                to expose lombok-bean outside the jar -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
